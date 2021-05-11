@@ -1,0 +1,75 @@
+.question-text {
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 0.5em;
+    color: green;
+    font-family: courier, serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+}
+.instructions-text {
+    font-style: italic;
+    clear: left;
+    padding-top: 1em;
+    font-size: small;
+    visibility: hidden;
+}
+li.normal-answer {
+    text-align: left;
+    cursor: pointer;
+    padding-bottom: 1em;
+    visibility: hidden;
+}
+li:hover.normal-answer {
+    cursor: pointer;
+    visibility: hidden;
+}
+li.scale-box {
+    float: left;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 1em;
+    padding-right: 0;
+    border: 1px #9ea4b1 solid;
+    width: 2em;
+    height: 2em;
+    padding-top: 0.5em;
+    text-align: center;
+    visibility: hidden;
+}
+.scale-comment-box {
+    float: left;
+    list-style: none;
+    margin-left: 0em;
+    padding-left: 0;
+    margin-right: 1em;
+    padding-right: 0;
+    padding-top: 0.5em;
+    text-align: center;
+    font-style: italic;
+    visibility: hidden;
+}
+li.scale-box a {
+    text-decoration: none; 
+    display: block;
+    vertical-align: middle;
+    visibility: hidden;
+}
+li.scale-box a:hover {
+    text-decoration: none;
+    display: block;
+    vertical-align: middle;
+    visibility: hidden;
+}
+span.fake-link {
+    color: blue;
+    cursor: pointer;
+    visibility: hidden;
+}
+span:hover.fake-link {
+    cursor: pointer;
+    visibility: hidden;
+}
+
